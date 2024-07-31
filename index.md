@@ -184,7 +184,7 @@ We can interpolate between different references in the CLAP space. Here, we demo
     <th class="tg-0pky"> Text Prompt </th>
     <td class="tg-0pky"> "Latin Percussion" </td>
     <td class="tg-0pky"> "Oriental Percussion Texture" </td>
-    <td class="tg-0pky"> "The Cathciest Darbouka Rhythm" </td>
+    <td class="tg-0pky"> "The Catchiest Darbouka Rhythm" </td>
     <td class="tg-0pky"> "Rhythm on Huge Industrial Metal Plates" </td>
   </tr>
   
@@ -193,8 +193,7 @@ We can interpolate between different references in the CLAP space. Here, we demo
 
 ### Zero-Shot Slider
 
-We can create a slider to control a property of the generation described through text.
-
+After generating an accompaniment for a context, based on a text or audio reference, we can adjust the generated accompaniment in arbitrary ways using the "zero-shot slider": We can freely define 
 <table class="tg">
 <tbody>
   <tr>
