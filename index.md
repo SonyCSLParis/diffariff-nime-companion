@@ -227,6 +227,11 @@ We can create a slider to control a property of the generation described through
     <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/4/gen0.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
     <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/5/gen0.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
   </tr>
+
+  <tr>
+    <th class="tg-0pky" colspan="5">Zero-shot adjustments of generated results</th>
+  </tr>
+
   <tr>
     <th class="tg-0pky"> Left slider prompt </th>
     <td class="tg-0pky"> "soft, sweet and tranquil" </td>
