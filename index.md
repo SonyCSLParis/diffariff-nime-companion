@@ -193,7 +193,12 @@ We can interpolate between different references in the CLAP space. Here, we demo
 
 ### Zero-Shot Slider
 
-After generating an accompaniment for a context, based on a text or audio reference, we can adjust the generated accompaniment in arbitrary ways using the "zero-shot slider": We can freely define 
+After generating an accompaniment for a context, based on a text or audio
+reference, we can adjust the generated accompaniment in arbitrary ways using the
+"zero-shot slider": We define the meaning of the left and right slider positions
+by writing two (opposing) text prompts, and adjust the generated accompaniment
+in the direction of the left or right prompts by moving the slider.
+
 <table class="tg">
 <tbody>
   <tr>
