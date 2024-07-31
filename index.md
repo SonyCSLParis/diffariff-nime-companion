@@ -198,6 +198,14 @@ We can create a slider to control a property of the generation described through
 <table class="tg">
 <tbody>
   <tr>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky">Example 1</th>
+    <th class="tg-0lax">Example 2</th>
+    <th class="tg-0lax">Example 3</th>
+    <th class="tg-0lax">Example 4</th>
+  </tr>
+
+  <tr>
     <th class="tg-0pky"> Context </th>
     <!-- <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/1/context.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td> -->
     <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/2/context.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
@@ -239,6 +247,14 @@ We can create a slider to control a property of the generation described through
     <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/3/gen2.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
     <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/4/gen2.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
     <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/5/gen2.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
+  </tr>
+
+  <tr>
+    <th class="tg-0pky"> <img src="https://sonycslparis.github.io/diffariff-nime-companion/diags/slider-50.png" alt="Slider position"/> (original) </th>
+    <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/2/gen0.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
+    <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/3/gen0.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
+    <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/4/gen0.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
+    <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/5/gen0.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
   </tr>
 
   <tr>
