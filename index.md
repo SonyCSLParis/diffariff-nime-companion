@@ -26,7 +26,7 @@ audio::-webkit-media-controls-seek-forward-button {
 
 This is the accompanying website to "Implicit Controls in Text-To-Music Diffusion Models".
 
-  * [System's Overview](#systems-overview)
+  * [System Overview](#systems-overview)
   * [Sound Examples](#sound-examples)
       - [Inpainting](#inpainting)
       - [Text-Audio Interpolations](#interpolations)
@@ -37,7 +37,7 @@ This is the accompanying website to "Implicit Controls in Text-To-Music Diffusio
   * [Ethics Statement](#ethics-statement)
   * [Extra References](#extra-references)
 
-## System's Overview 
+## System Overview 
 
 <figure>
   <img src="https://sonycslparis.github.io/diffariff-nime-companion/diff-a-riff-website.png" alt="Overview of Diff-A-Riff"/>
@@ -196,7 +196,7 @@ We can interpolate between different references in the CLAP space. Here, we demo
 We can create a slider to control a property of the generation described through text.
 
 <table class="tg">
-<body>
+<tbody>
   <tr>
     <th class="tg-0pky"> Context </th>
     <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/1/context.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
