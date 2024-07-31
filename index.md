@@ -220,8 +220,8 @@ We can create a slider to control a property of the generation described through
     <td class="tg-0pky"> "legato, sustained notes" </td>
   </tr>
   <tr>
-    <th class="tg-0pky"> $$ slider = -1 $$ </th>
-    <td class="tg-0pky"> "soft, sweet and tranquil" <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/2/gen1.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
+    <th class="tg-0pky"> <img src="https://sonycslparis.github.io/diffariff-nime-companion/diags/slider-1.png" alt="Slider position"/> </th>
+    <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/2/gen1.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
     <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/3/gen1.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
     <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/4/gen1.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
     <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/5/gen1.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
@@ -242,7 +242,7 @@ We can create a slider to control a property of the generation described through
     <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/5/gen3.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
   </tr>
   <tr>
-    <th class="tg-0pky"> $$ slider = 1 $$ </th>
+    <th class="tg-0pky"> <img src="slider-100.png" alt="Slider position"/> </th>
     <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/2/gen4.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
     <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/3/gen4.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
     <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/4/gen4.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
