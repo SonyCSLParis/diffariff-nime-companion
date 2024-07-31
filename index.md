@@ -206,6 +206,10 @@ We can create a slider to control a property of the generation described through
   </tr>
 
   <tr>
+    <th class="tg-0pky" colspan="5">Generate a result from a context and a reference</th>
+  </tr>
+
+  <tr>
     <th class="tg-0pky"> Context </th>
     <!-- <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/1/context.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td> -->
     <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/2/context.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
@@ -229,7 +233,7 @@ We can create a slider to control a property of the generation described through
   </tr>
 
   <tr>
-    <th class="tg-0pky" colspan="5">Zero-shot adjustments of generated results</th>
+    <th class="tg-0pky" colspan="5">Zero-shot adjustments of generated result</th>
   </tr>
 
   <tr>
