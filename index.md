@@ -57,7 +57,7 @@ Given a pair of input context and target accompaniment audio segments, the model
 ## Sound Examples
 In this section, we demonstrate the implicit controls of Diff-A-Riff.
 
-#### Inpainting
+### Inpainting
 As done traditionally with diffusion models, Diff-A-Riff can be used to perform audio inpainting. At each denoising step, the region to be kept is replaced with the corresponding noisy region of the final output, while the inpainted region is denoised normally. This way, we can enforce the inpainted region to blend well with the surroundings.
 
 In line with most diffusion models, Diff-A-Riff allows to perform audio inpainting. During each denoising iteration, the inpainted area undergoes standard denoising, while the region to keep is substituted with its noisy counterpart from the final output. This approach ensures seamless integration of the inpainted section with its surroundings.
@@ -122,7 +122,7 @@ In the following examples, all tracks are inpainted from second 5 to 8.
 </tbody>
 </table>
 
-#### Text-Audio Interpolation
+### Text-Audio Interpolation
 
 <img src="https://sonycslparis.github.io/diffariff-nime-companion/diags/interpolations.png" alt="Interpolations"/>
 
@@ -191,7 +191,7 @@ We can interpolate between different references in the CLAP space. Here, we demo
 </tbody>
 </table>
 
-#### Zero-Shot Slider
+### Zero-Shot Slider
 
 We can create a slider to control a property of the generation described through text.
 
@@ -207,15 +207,14 @@ We can create a slider to control a property of the generation described through
   </tr>
   <tr>
     <th class="tg-0pky"> Text/Audio Reference </th>
-    <td class="tg-0pky"> Text/electric guitar </td>
-    <td class="tg-0pky"> Text/electric guitar </td>
-    <td class="tg-0pky"> Text/percussive drum rhythm with kick and snare </td>
-    <td class="tg-0pky"> Text/acoustic guitar </td>
+    <td class="tg-0pky"> "electric guitar" </td>
+    <td class="tg-0pky"> "percussive drum rhythm with kick and snare" </td>
+    <td class="tg-0pky"> "acoustic guitar" </td>
     <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/5/reference.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
   </tr>
   <tr>
-    <th class="tg-0pky"> "soft, sweet and tranquil" $$ slider = -1 $$ </th>
-    <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/2/gen1.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
+    <th class="tg-0pky"> $$ slider = -1 $$ </th>
+    <td class="tg-0pky"> "soft, sweet and tranquil" <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/2/gen1.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
     <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/3/gen1.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
     <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/4/gen1.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
     <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/5/gen1.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
@@ -236,8 +235,8 @@ We can create a slider to control a property of the generation described through
     <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/5/gen3.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
   </tr>
   <tr>
-    <th class="tg-0pky"> "hard hitting aggressive" $$ slider = 1 $$ </th>
-    <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/2/gen4.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
+    <th class="tg-0pky"> $$ slider = 1 $$ </th>
+    <td class="tg-0pky"> "hard hitting aggressive" <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/2/gen4.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
     <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/3/gen4.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
     <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/4/gen4.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
     <td class="tg-0pky"> <audio controls preload="none" controlsList="nodownload"><source src="https://sonycslparis.github.io/diffariff-nime-companion/audios/bonus/slider/5/gen4.mp3" type="audio/wav"> Your Browser does not support the audio tag </audio> </td>
@@ -246,7 +245,7 @@ We can create a slider to control a property of the generation described through
 </tbody>
 </table>
 
-#### Variations
+### Variations
 
 <img class="diag" src="https://sonycslparis.github.io/diffariff-nime-companion/diags/variation.png" alt="Variation Generation"/>
 
@@ -292,7 +291,7 @@ Given an audio file, we can encode it in the CAE latent space and get the corres
 </table>
 
 
-#### Stereo width
+### Stereo width
 
 <img src="https://sonycslparis.github.io/diffariff-nime-companion/diags/stereo.png" alt="Pseudo Stereo Generation"/>
 
@@ -330,7 +329,7 @@ Following the same principle as for variations, for any mono signal, we can crea
 </tbody>
 </table>
 
-#### Loop Sampling
+### Loop Sampling
 
 <img src="https://sonycslparis.github.io/diffariff-nime-companion/diags/loop.png" alt="Loop Sampling"/>
 
